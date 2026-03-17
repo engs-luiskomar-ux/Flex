@@ -25,3 +25,42 @@ h1 {
     color: #333;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.bg-1 { background-color: #FF6B6B; }
+.bg-2 { background-color: #4ECDC4; }
+.bg-3 { background-color: #45B7D1; }
+.bg-4 { background-color: #96CEB4; }
+.bg-5 { background-color: #FFD166; color: #333; } 
+.bg-6 { background-color: #D4A5A5; }
+.bg-7 { background-color: #9D4EDD; }
+.bg-8 { background-color: #F72585; }
+.bg-9 { background-color: #3A0CA3; }
